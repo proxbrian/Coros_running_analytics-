@@ -1,0 +1,126 @@
+{
+  "period_start": "2026-09-01",
+  "period_end": "2026-09-28",
+  "activities": [
+    {
+      "id": "1001",
+      "date": "2026-09-02",
+      "sport": "run",
+      "distance_m": 8000,
+      "duration_s": 2520,
+      "avg_pace_s_per_km": 315,
+      "avg_hr": 142,
+      "is_long_run": false
+    },
+    {
+      "id": "1002",
+      "date": "2026-09-04",
+      "sport": "run",
+      "distance_m": 10000,
+      "duration_s": 3000,
+      "avg_pace_s_per_km": 300,
+      "avg_hr": 155,
+      "is_long_run": false
+    },
+    {
+      "id": "1003",
+      "date": "2026-09-07",
+      "sport": "run",
+      "distance_m": 18000,
+      "duration_s": 6120,
+      "avg_pace_s_per_km": 340,
+      "avg_hr": 138,
+      "is_long_run": true
+    },
+    {
+      "id": "1004",
+      "date": "2026-09-09",
+      "sport": "run",
+      "distance_m": 7000,
+      "duration_s": 2310,
+      "avg_pace_s_per_km": 330,
+      "avg_hr": 140,
+      "is_long_run": false
+    },
+    {
+      "id": "1005",
+      "date": "2026-09-11",
+      "sport": "run",
+      "distance_m": 12000,
+      "duration_s": 3720,
+      "avg_pace_s_per_km": 310,
+      "avg_hr": 150,
+      "is_long_run": false
+    },
+    {
+      "id": "1006",
+      "date": "2026-09-14",
+      "sport": "run",
+      "distance_m": 20000,
+      "duration_s": 7000,
+      "avg_pace_s_per_km": 350,
+      "avg_hr": 136,
+      "is_long_run": true
+    },
+    {
+      "id": "1007",
+      "date": "2026-09-16",
+      "sport": "run",
+      "distance_m": 8000,
+      "duration_s": 2480,
+      "avg_pace_s_per_km": 310,
+      "avg_hr": 141,
+      "is_long_run": false
+    },
+    {
+      "id": "1008",
+      "date": "2026-09-18",
+      "sport": "run",
+      "distance_m": 11000,
+      "duration_s": 3410,
+      "avg_pace_s_per_km": 310,
+      "avg_hr": 152,
+      "is_long_run": false
+    },
+    {
+      "id": "1009",
+      "date": "2026-09-21",
+      "sport": "run",
+      "distance_m": 22000,
+      "duration_s": 7700,
+      "avg_pace_s_per_km": 350,
+      "avg_hr": 137,
+      "is_long_run": true
+    },
+    {
+      "id": "1010",
+      "date": "2026-09-23",
+      "sport": "run",
+      "distance_m": 9000,
+      "duration_s": 2790,
+      "avg_pace_s_per_km": 310,
+      "avg_hr": 143,
+      "is_long_run": false
+    },
+    {
+      "id": "1011",
+      "date": "2026-09-25",
+      "sport": "run",
+      "distance_m": 10000,
+      "duration_s": 3000,
+      "avg_pace_s_per_km": 300,
+      "avg_hr": 156,
+      "is_long_run": false
+    },
+    {
+      "id": "1012",
+      "date": "2026-09-28",
+      "sport": "run",
+      "distance_m": 16000,
+      "duration_s": 5600,
+      "avg_pace_s_per_km": 350,
+      "avg_hr": 135,
+      "is_long_run": true
+    }
+  ]
+}

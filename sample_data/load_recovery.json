@@ -1,0 +1,9 @@
+{
+  "acute_load": 420,
+  "chronic_load": 310,
+  "load_ratio": 1.35,
+  "recovery_pct": 52,
+  "sleep_score_avg": 72,
+  "hrv_status": "balanced",
+  "resting_hr_delta": 2.0
+}
