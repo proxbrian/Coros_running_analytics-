@@ -27,11 +27,14 @@ Cursor / Agent
 
 ### 1. 連線官方 COROS MCP（Cursor）
 
-專案已提供 [`.cursor/mcp.json`](.cursor/mcp.json)。在 Cursor 開啟本 repo 後：
+專案已提供 [`.cursor/mcp.json`](.cursor/mcp.json)。完整圖文步驟見 **[授權設定指南](docs/AUTH_SETUP.md)**。
 
-1. 開啟 **Settings → MCP**，確認 `coros` 伺服器出現
-2. 完成瀏覽器 OAuth 授權（使用可登入 [t.coros.com](https://t.coros.com) 的帳號）
-3. 若 `mcp.coros.com` 因區域轉址失敗，改用區域端點（見設定註解）
+簡要流程：
+
+1. 用 Cursor 開啟本 repo → **Settings → MCP**，確認 `coros` 出現並啟用
+2. 點 **Connect／Authenticate**，在瀏覽器登入 COROS 並同意授權
+3. 新開對話測試：「請呼叫 COROS MCP，列出我過去 14 天跑步活動」
+4. 若 `mcp.coros.com` 轉址失敗，改用區域端點（見 [`docs/AUTH_SETUP.md`](docs/AUTH_SETUP.md)）
 
 ### 2. 安裝本機分析層
 
@@ -65,6 +68,7 @@ coros-analytics fit-summary --fit sample_data/sample_run.fit
 
 ## 文件
 
+- [授權設定指南](docs/AUTH_SETUP.md)
 - [執行計畫與風險評估](docs/EXECUTION_PLAN.md)
 - [MCP 工具對照與工作流](docs/MCP_WORKFLOWS.md)
 - [Agent 行為規範](AGENTS.md)
