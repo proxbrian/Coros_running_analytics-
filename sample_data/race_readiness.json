@@ -1,0 +1,10 @@
+{
+  "target": "half",
+  "weeks_to_race": 6,
+  "predicted_seconds": 6300,
+  "goal_seconds": 6600,
+  "weekly_distance_km": 48,
+  "peak_weekly_distance_km": 62,
+  "long_run_km": 20,
+  "load_ratio": 1.05
+}

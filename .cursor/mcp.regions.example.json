@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "coros": {
+      "url": "https://mcp.coros.com/mcp"
+    },
+    "coros-cn": {
+      "url": "https://mcpcn.coros.com/mcp"
+    },
+    "coros-eu": {
+      "url": "https://mcpeu.coros.com/mcp"
+    },
+    "coros-us": {
+      "url": "https://mcpus.coros.com/mcp"
+    }
+  }
+}
