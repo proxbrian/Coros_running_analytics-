@@ -32,6 +32,19 @@
 | 賽事準備度 | `skills/race-readiness/SKILL.md` |
 | 單次課 FIT／分段深挖 | `skills/fit-deep-dive/SKILL.md` |
 
+## Cursor Cloud
+
+預設分支 `main` 目前只有佔位 README，分析程式在功能分支。環境的 `install` 會安裝 `python3.12-venv`；只有工作目錄有 `pyproject.toml` 時才建立 `.venv` 並執行 `pip install -e ".[dev]"`。
+
+從 `main` 的環境建置開機後再切到本分支時，`install` 不會重跑。若 `.venv/bin/coros-analytics` 不存在，在 `/workspace` 執行：
+
+```bash
+python3 -m venv .venv
+.venv/bin/pip install -e ".[dev]"
+```
+
+驗證：`.venv/bin/pytest`，以及 `.venv/bin/coros-analytics weekly-review --input sample_data/activities_4w.json`。官方 COROS MCP 需使用者在 Cursor 完成 OAuth，此環境不保存帳密。
+
 ## 安全與隱私
 
 - 不要求、不記錄 COROS 密碼。
